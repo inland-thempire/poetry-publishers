@@ -10,46 +10,38 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Data about Poetry Publishing!
+# Scanning Poetry Publishers
 
-This project collocates data from the Community of Literary Magazines and Presses and bibliographic metadata about poetry publishing.
+Poetry is not a luxury, but it is a commodity.
 
-## Header 2
+## Introduction
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Poetry is an art closely bound to its physical presentations and modes of distribution: particularly in the world of small press publishing, the book is a container which transmits a poetics of its own. Yet a material poetics bears material costs, and poetry publishers are tasked with balancing aesthetic ambitions with the realities of disseminating art under late capitalism—poetry is not a luxury, but it is a commodity. How, then, are networks of distribution impacting avenues to disseminating a book of poems?
 
-### Header 3
+This project collocates datasets—data about poetry publishers and bibliographic metadata about poetry publications—to explore how recent commercial and historical phenomena impact the art form. Gleaned from the Community of Literary Magazines and Presses website, its principle dataset is presented on a map with options to explore the data by founding year, distributor, and approximate volume of output.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+While this project includes poetry publishers based outside of the US, its main focus is upon publishers based in the US and its territories.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Background
 
-#### Header 4
+*   **2013** - Major book distributor Ingram launches IngramSpark, offering print-on-demand and distribution as an alternative to traditional bulk offset printing
+*   **March 2020** - COVID-19 prompts a widespread shutdown of non-essential commerce; some poetry publishers cease sales and operations
+*   **March 2024** - Small Press Distribution, the main distributor of many small press publishers, shutters overnight, leaving many publishers scrambling to send out books to retailers
+*   **May 2025** - The Trump administration terminates or withdraws National Endowment for the Arts (NEA) grants for around 40 independent and nonprofit poetry publishers
+  
+## Workflow
 
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-##### Header 5
+## Tools Used
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-###### Header 6
+## Further Uses
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|

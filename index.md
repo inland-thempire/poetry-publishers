@@ -59,7 +59,9 @@ This list contains a finite number of active poetry presses, many of which are r
 
 About the Closure of Small Press Distribution: FAQ - Community of Literary Magazines and Presses. (2025, October 27). Community of Literary 
   Magazines and Presses. https://www.clmp.org/about-the-closure-of-small-press-distribution-faqs/
+  
 IngramSpark: A Decade of Amplifying Indie Authors and Publishers. (2023). PublishersWeekly.com. https://www.publishersweekly.com/pw/by-
   topic/industry-news/publisher-news/article/93461-ingramspark-a-decade-of-amplifying-indie-authors-and-publishers.html
+  
 Publishing During a Pandemic: The Effects of COVID-19 on the Business of Books. (2020, June 10). Poets & Writers. 
   https://www.pw.org/content/publishing_during_a_pandemic_the_effects_of_covid19_on_the_business_of_books

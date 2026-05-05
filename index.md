@@ -28,7 +28,7 @@ Poets and their circles have been anecdotally circling around a number of recent
 ## Workflow
 
 *   I began by web scraping CLMP’s publisher database to collect data about publishers' genres, founding dates, locations, and distributors
-*   Next, I Ssaved this publisher data to a CSV using ‘pandas’ python library
+*   Next, I saved this publisher data to a CSV using ‘pandas’ python library
 *   I tabulated and cleaned the data in OpenRefine to allow me to manipulate the data according to standardized years and places
 *   I reconciled publisher data with supplemental datasets on output and distribution
 *   I generated coordinates for publisher locations using ezGeocode

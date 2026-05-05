@@ -44,7 +44,7 @@ Poets and their circles have been anecdotally circling around a number of recent
 
 ## Further Uses
 
-This list contains a finite number of active poetry presses, many of which are rapidly shifting their output and modes of distribution. This project may be expanded by adding additional publisher data through WikiData or through surveys of individual publishers. While more difficult to procure, broad data about the closure of poetry presses would also augment a quantification of changes in the publishing landscape. Additionally, supplemental data from databases around submission fees for writers would allow writers to get a clear picture of how their 
+This list contains a finite number of active poetry presses, many of which are rapidly shifting their output and modes of distribution. This project may be expanded by adding additional publisher data through WikiData or through surveys of individual publishers. While more difficult to procure, broad data about the closure of poetry presses would also augment a quantification of changes in the publishing landscape. Additionally, data around submissions and payments for writers would link information about fees and distribution, allowing writers to get a clear picture of the full terms by which their work will be published.
 
 ## Files List
 

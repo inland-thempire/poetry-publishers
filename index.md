@@ -2,17 +2,10 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
 # Scanning Poetry Publishers
 
-Poetry is not a luxury, but it is a commodity.
+#### _Poetry is not a luxury, but it is a commodity._
+
 
 ## Introduction
 
@@ -24,92 +17,49 @@ While this project includes poetry publishers based outside of the US, its main 
 
 ## Background
 
+Poets and their circles have been anecdotally circling around a number of recent events that have had a significant impact on publishing, leading to the opening, closure, acquisition, and overhauls of many presses. 
+
 *   **2013** - Major book distributor Ingram launches IngramSpark, offering print-on-demand and distribution as an alternative to traditional bulk offset printing
 *   **March 2020** - COVID-19 prompts a widespread shutdown of non-essential commerce; some poetry publishers cease sales and operations
 *   **March 2024** - Small Press Distribution, the main distributor of many small press publishers, shutters overnight, leaving many publishers scrambling to send out books to retailers
 *   **May 2025** - The Trump administration terminates or withdraws National Endowment for the Arts (NEA) grants for around 40 independent and nonprofit poetry publishers
+
+
   
 ## Workflow
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*   Web scraped CLMP’s publisher database using ‘requests’ python library
+*   Saved publisher data to a CSV using ‘pandas’ python library
+*   Tabulated and cleaned data in OpenRefine
+*   Reconciled publisher data with supplemental datasets on output and distribution
+*   Generated coordinates for publisher locations using ezGeocode
+*   Mapped publishers in QGIS
 
 ## Tools Used
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+*   'Requests' python library
+*   'Pandas' python library
+*   OpenRefine
+*   ezGeocode
+*   QGIS
 
 ## Further Uses
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+This list contains a finite number of active poetry presses, many of which are rapidly shifting their output and modes of distribution. This project may be expanded by adding additional publisher data through WikiData or through surveys of individual publishers. While more difficult to procure, broad data about the closure of poetry presses would also augment a quantification of changes in the publishing landscape.
 
-### There's a horizontal rule below this.
+## Files List
+
+1. clmp_all_data.ipynb - python notebook scraping CLMP’s publisher database
+2. publisher_data.csv - CSV saving data from CLMP database
+3. publisher_data_cleaned.csv - CSV after cleaning data in OpenRefine
 
 * * *
 
-### Here is an unordered list:
+## Sources
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+About the Closure of Small Press Distribution: FAQ - Community of Literary Magazines and Presses. (2025, October 27). Community of Literary 
+  Magazines and Presses. https://www.clmp.org/about-the-closure-of-small-press-distribution-faqs/
+IngramSpark: A Decade of Amplifying Indie Authors and Publishers. (2023). PublishersWeekly.com. https://www.publishersweekly.com/pw/by-
+  topic/industry-news/publisher-news/article/93461-ingramspark-a-decade-of-amplifying-indie-authors-and-publishers.html
+Publishing During a Pandemic: The Effects of COVID-19 on the Business of Books. (2020, June 10). Poets & Writers. 
+  https://www.pw.org/content/publishing_during_a_pandemic_the_effects_of_covid19_on_the_business_of_books

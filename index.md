@@ -15,9 +15,7 @@ layout: default
 
 Poetry is an art closely bound to its physical presentations and modes of distribution: particularly in the world of small press publishing, the book is a container which transmits a poetics of its own. Yet a material poetics bears material costs, and poetry publishers are tasked with balancing aesthetic ambitions with the realities of disseminating art under late capitalism. How, then, are networks of distribution impacting avenues to disseminating a book of poems?
 
-This project collocates data about poetry publishers to explore how recent commercial and historical phenomena impact the art form. Gleaned from the [Community of Literary Magazines and Presses' Directory of Publishers](https://www.clmp.org/readers/directory-of-publishers/), its principle dataset is presented on a map that displays each publisher according to the year they were founded. A supplementary chart reflects the types of distributors these presses are now using (most notably Asterism, which rose to replace Small Press Distribution). These metrics allow for a visualization of what avenues (from book to publisher to distributor to bookstore) are opened and foreclosed at recent turning points for the industry.
-
-While this project includes poetry publishers based outside of the US, its main focus is upon publishers based in the US and its territories.
+This project collocates data about poetry publishers to explore how recent commercial and historical phenomena impact the art form. Gleaned from the [Community of Literary Magazines and Presses' Directory of Publishers](https://www.clmp.org/readers/directory-of-publishers/), its principle dataset is presented on a map that displays each publisher according to the year they were founded.
 
 ## Background
 
@@ -38,13 +36,7 @@ Poets and their circles have been anecdotally circling around a number of recent
   
 ## Workflow
 
-*   I began by web scraping CLMP’s publisher database to collect data about publishers' genres, founding dates, locations, and distributors
-*   Next, I saved this publisher data to a CSV using ‘pandas’ python library
-*   I tabulated and cleaned the data in OpenRefine to allow me to manipulate the data according to standardized years and places
-*   I reconciled the publisher dataset with CLMP's 2025 report, [Presses Formerly Distributed by SPD: Where They Are Now](https://www.clmp.org/about-the-closure-of-small-press-distribution-faqs/presses-formerly-distributed-by-spd-where-they-are-now/)
-*   I generated coordinates for publisher locations using ezGeocode
-*   I mapped publishers in QGIS for easy visualization
-*   Returning to 'pandas', I created a pie chart to represent the various distributors that publishers are now using
+Web scraping CLMP’s publisher database to collect data about publishers, cleaning in OpenRefine, and mapping in QGIS.
 
 ## Tools Used
 
@@ -54,19 +46,10 @@ Poets and their circles have been anecdotally circling around a number of recent
 *   ezGeocode
 *   QGIS
 
-## Further Uses
 
-This list contains a finite number of active poetry presses, many of which are rapidly shifting their output and modes of distribution. This project may be expanded by adding additional publisher data through WikiData or through surveys of individual publishers. While more difficult to procure, broad data about the closure of poetry presses would also augment a quantification of changes in the publishing landscape. Additionally, data around submissions and payments for writers would link information about fees and distribution, allowing writers to get a clear picture of the full terms by which their work will be published.
 
-## Files List
+**[View the GitHub repository.](https://github.com/inland-thempire/poetry-publishers)**
 
-1. clmp_database.ipynb - Python notebook scraping CLMP’s publisher database
-2. clmp_publishers.csv - CSV saving data from CLMP databse
-3. clmp_publishers_cleaned.csv - CSV after cleaning data in OpenRefine
-4. publishers_joined_dataset.csv - CSV after cross-checking distributor information with list from SPD's closure and with coordinates generated from ezGeocode
-5. publisher_map.qgz - Map of publishers using QGIS from ezGeocode coordinates
-6. publisher_year_animation.gif - Gif of publishers appearing over time from QGIS mapping
-7. publisher_charts.ipynb - Python notebook displaying distributors as a pie chart
 
 * * *
 

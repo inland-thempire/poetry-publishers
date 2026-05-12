@@ -25,8 +25,9 @@ Poets and their circles have been anecdotally circling around a number of recent
 *   **May 2025** - The Trump administration terminates or withdraws National Endowment for the Arts (NEA) grants for around 40 independent and nonprofit poetry publishers (_The NEA Defunded us. Now what?_, 2025)
 
 
+#### Poetry Publishers Mapped by Year Established (1947-Present)
 
-![me](https://github.com/inland-thempire/poetry-publishers/blob/master/docs/publisher_year_animation.gif)
+<img src="https://github.com/inland-thempire/poetry-publishers/blob/master/docs/publisher_year_animation.gif" alt="poetry publisher map animation" width="700">
 
 
   

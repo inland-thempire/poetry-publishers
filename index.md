@@ -24,6 +24,11 @@ Poets and their circles have been anecdotally circling around a number of recent
 *   **March 2024** - Small Press Distribution, the main distributor of many small press publishers, shutters overnight, leaving many publishers scrambling to send out books to retailers (_About the Closure of Small Press Distribution_, 2025)
 *   **May 2025** - The Trump administration terminates or withdraws National Endowment for the Arts (NEA) grants for around 40 independent and nonprofit poetry publishers (_The NEA Defunded us. Now what?_, 2025)
 
+
+
+![me](https://github.com/inland-thempire/poetry-publishers/blob/master/docs/publisher_year_animation.gif)
+
+
   
 ## Workflow
 

@@ -64,9 +64,10 @@ This list contains a finite number of active poetry presses, many of which are r
 2. clmp_publishers.csv - CSV saving data from CLMP databse
 3. clmp_publishers_cleaned.csv - CSV after cleaning data in OpenRefine
 4. publishers_joined_dataset.csv - CSV after cross-checking distributor information with list from SPD's closure and with coordinates generated from ezGeocode
-5. publisher_map.qgz - Map of publishers using QGIS from ezGeocode coordinates
-6. publisher_year_animation.gif - Gif of publishers appearing over time from QGIS mapping
-7. publisher_charts.ipynb - Python notebook displaying distributors as a pie chart
+5. publisher_map.html - Map of publishers using QGIS from ezGeocode coordinates for web browser
+6. publisher_map.qgz - QGIS file for map of publishers from ezGeocode coordinates
+7. publisher_year_animation.gif - Gif of publishers appearing over time from QGIS mapping
+8. publisher_charts.ipynb - Python notebook displaying distributors as a pie chart
 
 * * *
 

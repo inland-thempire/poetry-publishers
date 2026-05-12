@@ -27,8 +27,7 @@ Poets and their circles have been anecdotally circling around a number of recent
 
 #### Poetry Publishers Mapped by Year Established (1947-Present)
 
-<img src="https://github.com/inland-thempire/poetry-publishers/blob/master/publisher_year_animation.gif" alt="poetry publisher map animation" width="700">
-
+<img src="https://github.com/inland-thempire/poetry-publishers/blob/master/publisher_year_animation.gif" alt="animated publisher map with names appearing by year" width="700">
 
   
 ## Workflow
@@ -54,9 +53,13 @@ This list contains a finite number of active poetry presses, many of which are r
 
 ## Files List
 
-1. clmp_all_data.ipynb - python notebook scraping CLMP’s publisher database
-2. publisher_data.csv - CSV saving data from CLMP database
-3. publisher_data_cleaned.csv - CSV after cleaning data in OpenRefine
+1. clmp_database.ipynb - python notebook scraping CLMP’s publisher database
+2. clmp_publishers.csv - CSV saving data from CLMP databse
+3. clmp_publishers_cleaned.csv - CSV after cleaning data in OpenRefine
+4. publishers_joined_dataset.csv - CSV after cross-checking distributor information with list from SPD's closure and with coordinates generated from ezGeocode
+5. publisher_map.qgz - Map of publishers using QGIS from ezGeocode coordinates
+6. publisher_year_animation.gif - Gif of publishers appearing over time from QGIS mapping
+7. publisher_charts.ipynb - Charting distributors as a pie chart in Python
 
 * * *
 

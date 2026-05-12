@@ -27,7 +27,7 @@ Poets and their circles have been anecdotally circling around a number of recent
 
 #### Poetry Publishers Mapped by Year Established (1947-Present)
 
-<img src="https://github.com/inland-thempire/poetry-publishers/blob/master/docs/publisher_year_animation.gif" alt="poetry publisher map animation" width="700">
+<img src="https://github.com/inland-thempire/poetry-publishers/blob/master/publisher_year_animation.gif" alt="poetry publisher map animation" width="700">
 
 
   
